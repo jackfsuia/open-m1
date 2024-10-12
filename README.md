@@ -1,6 +1,6 @@
 # open-m1
 A roadmap to reproduce OpenAI o1, Combining PRM RL and a RLHF-like RL to train the model to learn infinite CoT (Chain of Thought).
-# a roadmap
+# A roadmap
 **Step 1: A good base model.** Find a good math base model M0. For example, deepseek-math-base. The larger it is, the more likely for its emergence of self-backtrack and self-refine abilitis.
 
 **Step 2: Format training.** Finetune M0 to produce solutions in a newline delimited step-by-step format [1]. The result is model M1.
