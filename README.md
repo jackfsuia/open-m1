@@ -12,4 +12,5 @@ A roadmap to reproduce OpenAI o1, Combining PRM RL and a RLHF-like RL to train t
 **Step 5: Inference.** During inference of model M3, if time is out, the program adds a "\n Therefore the answer is " to force it to produce the final answer [2]. Then one another model will produce a summary for this whole output.
 # Reference
 [1] Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever. Let’s Verify Step by Step.
+
 [2] Nat McAleese, Rai Michael Pokorny, Juan Felipe Ceron Uribe, Evgenia Nitishinskaya, Maja Trebacz, Jan Leike. LLM Critics Help Catch LLM Bugs.
